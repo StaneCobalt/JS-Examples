@@ -1,0 +1,65 @@
+#indexLink, .back{
+	font-family:lucida;
+	list-style:none;
+	text-align:center;
+	font-size:1.5em;
+}
+
+#indexLink li, .back{
+	border:1px solid grey;
+	padding:1em;
+	margin:1em;
+}
+
+	#indexLink a, .back{
+		color:black;
+		text-decoration:none;
+		transition:0.3s;
+	}
+
+		#indexLink a:hover, .back:hover{
+			color:red;
+		}
+
+.back{
+	margin:0.25em;
+	transition:0.3s;
+}
+
+	.back:hover{
+		font-size:1.6em;
+	}
+
+.container{
+	background-color:#e6e6e6;
+	border-radius:5px;
+	color:#1a1a1a;
+	font-size:2em;
+	font-family:arial;
+	font-weight:bold;
+	text-align:center;
+	padding:1em;
+	width:50%;
+	margin:1em 25%;
+}
+
+.container span{
+	font-size: 0.5em;
+}
+
+.container form{
+	text-align:left;
+	font-size:0.5em;
+}
+
+#btnSubmit{
+	margin-top:1em;
+	min-width:50px;
+	width:50%;
+	transition:0.5s;
+	padding:0.5em;
+}
+
+	#btnSubmit:hover{
+		font-size:large;
+	}

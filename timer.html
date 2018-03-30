@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="js/timerScript.js" ></script>
+		<link type="text/css" rel="stylesheet" href="css/styles.css">
+		<title>JS Examples | Timer</title>
+	</head>
+	<body>
+		<div>
+			
+			<a href="index.html" class="back">Back</a>
+			
+			<div class="container">
+				<p id="clock"></p>
+				<script type="text/javascript">setClock();</script>
+			</div>
+			
+			<div class="container">
+				<p id="timer"></p>
+				<span>Minutes </span>
+				<input type="number" name="minutes" id="minutes"/>
+				<br/>
+				<button id="btnSubmit" onclick="setTimer()">Start Timer</button>
+			</div>
+			
+		</div>
+	</body>
+</html>
