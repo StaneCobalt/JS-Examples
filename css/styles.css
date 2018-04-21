@@ -63,3 +63,65 @@
 	#btnSubmit:hover{
 		font-size:large;
 	}
+
+/* Card Question Styles */
+#left, #right{
+	float:left;
+	background-color:#cccccc;
+	width:14%;
+	height:100%;
+	transition:0.5s;
+	border-top:2px solid #737373;
+	border-bottom:2px solid #737373;
+}
+	#left{
+		border-left:2px solid #737373;
+		margin-left:4px;
+	}
+	#right{
+		border-right:2px solid #737373;
+	}
+	#left:hover, #right:hover{
+		background-color:#999999;
+	}
+	#left span, #right span{
+		font-family:helvetica;
+		color:white;
+		font-size:3em;
+		text-align:center;
+		position: absolute;
+		top:50%;
+	}
+	#left span{
+		left:4%;
+	}
+	#right span{
+		right:4%;
+	}
+#card{
+	float:left;
+	background-color:#29a329;
+	border:2px solid #145214;
+	width:70%;
+	height:100%;
+	max-height:100%;
+	text-align:center;
+}
+#question{
+	vertical-align:middle;
+	font-family:helvetica;
+	font-size: 2em;
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+#cardContainer{
+	margin-top:2em;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	bottom: 100px;
+	left: 0;
+}

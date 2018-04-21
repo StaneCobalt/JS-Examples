@@ -2,48 +2,24 @@
 <html lang="en">
 	<head>
 		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<meta id="viewport" name="viewport" content="width=device-width" />
+		<meta id="viewport" name="viewport" content="width=device-width" />
+		<link type="text/css" rel="stylesheet" href="css/styles.css">
 		<title>50 Questions</title>
-		<script type="text/javascript" src="questionScript.js"></script>
+		<script type="text/javascript" src="js/questionScript.js"></script>
 	</head>
 	<body>
-		<style>
-			#left, #right{
-				float:left;
-				background-color:#e6e6e6;
-				width:14%;
-				height:100%;
-				margin-top:1%;
-			}
-			#card{
-				float:left;
-				background-color:#29a329;
-				width:70%;
-				height:100%;
-				max-height:100%;
-				padding:1%;
-				text-align:center;
-			}
-			#question{
-				vertical-align:middle;
-				font-family:helvetica;
-				font-size: 2em;
-				color:white;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translateX(-50%) translateY(-50%);
-			}
-			#container{
-				position: absolute; top: 0; right: 0; bottom: 0; left: 0;
-			}
-		</style>
-		<div id="container">
-			<div id="left"></div>
+		<a href="index.html" class="back">Back</a>
+		<p id="test"></p>
+		<div id="cardContainer">
+			<div id="left">
+				<span>No</span>
+			</div>
 			<div id="card">
 				<span id="question">Question</span>
 			</div>
-			<div id="right"></div>
+			<div id="right">
+				<span>Yes</span>
+			</div>
 		</div>
 		<script>initDiv();</script>
 	</body>
