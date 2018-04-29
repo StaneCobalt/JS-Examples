@@ -125,3 +125,21 @@
 	bottom: 100px;
 	left: 0;
 }
+
+/* Win a Car Game Styles */
+.box{
+	border:solid 1px black;
+	border-radius:5px;
+	padding:0.5em;
+	width:100%;
+	color:black;
+}
+#doors{
+	float:left;
+	clear:left;
+}
+#score{
+	float:left;
+	margin-left:1em;
+	font-size:1.5em;
+}
